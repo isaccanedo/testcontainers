@@ -14,5 +14,5 @@ Existe uma abordagem muito comum e conveniente para testar scripts de migração
 
 É fácil e rápido. Mas é bom?
 
-O problema de usar um banco de dados na memória para testes
+### O problema de usar um banco de dados na memória para testes
 O H2 geralmente não é o banco de dados que usamos na produção ou em outros ambientes semelhantes à produção. Quando testamos os scripts SQL com o banco de dados H2, não temos ideia de como a migração seria executada no ambiente de produção.
